@@ -1,3 +1,5 @@
+import ContactBtn from "@/components/ContactBtn";
+import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import localFont from "next/font/local";
 import "./globals.css";
@@ -26,6 +28,8 @@ export default function RootLayout({ children }) {
       >
         <Header />
         {children}
+        <ContactBtn />
+        <Footer />
       </body>
     </html>
   );
